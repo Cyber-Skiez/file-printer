@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="899c0783-5314-44ff-b827-42517c54b2ac" name="Changes" comment="" />
+    <list default="true" id="899c0783-5314-44ff-b827-42517c54b2ac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/user_file.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,23 +37,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000006743495762" />
-      <entry key="MS500" value="1.0584019472410624" />
-      <entry key="S2" value="1.7586942224270286" />
-      <entry key="S5" value="3.7701358366124333" />
-      <entry key="S10" value="6.210416151381049" />
-      <entry key="S30" value="9.800314119989594" />
-      <entry key="S60" value="11.302394667956802" />
-      <entry key="M2" value="13.219847322564464" />
-      <entry key="M5" value="22.86893554204522" />
-      <entry key="M10" value="54.134928345231216" />
-      <entry key="M15" value="98.17579828056631" />
-      <entry key="M30" value="244.91010326587497" />
-      <entry key="H1" value="453.8245829947829" />
-      <entry key="H2" value="645.631197334068" />
-      <entry key="H4" value="778.6615731752622" />
-      <entry key="D1" value="915.3383492447797" />
-      <entry key="W1" value="941.5460914410864" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000000007" />
+      <entry key="S2" value="1.0006779911024497" />
+      <entry key="S5" value="1.2467162663297193" />
+      <entry key="S10" value="2.8384325511288804" />
+      <entry key="S30" value="8.099067827373421" />
+      <entry key="S60" value="10.966367419823053" />
+      <entry key="M2" value="12.811427279283485" />
+      <entry key="M5" value="14.185793968912837" />
+      <entry key="M10" value="17.509658046538693" />
+      <entry key="M15" value="27.03506276712904" />
+      <entry key="M30" value="94.38216578766219" />
+      <entry key="H1" value="273.98251179687077" />
+      <entry key="H2" value="515.3713784902077" />
+      <entry key="H4" value="721.8835057935386" />
+      <entry key="D1" value="965.2327494217228" />
+      <entry key="W1" value="1015.3703328268786" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -70,23 +75,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.00708999340545672" />
-      <entry key="MS500" value="0.37712064279561147" />
-      <entry key="S2" value="1.3181444411050554" />
-      <entry key="S5" value="3.506352648999892" />
-      <entry key="S10" value="6.0354807208228385" />
-      <entry key="S30" value="9.71227683912687" />
-      <entry key="S60" value="11.25112799768453" />
-      <entry key="M2" value="13.191880250491462" />
-      <entry key="M5" value="22.856535445529328" />
-      <entry key="M10" value="54.12679309927068" />
-      <entry key="M15" value="98.16823311784309" />
-      <entry key="M30" value="244.90227832414504" />
-      <entry key="H1" value="453.81752854578315" />
-      <entry key="H2" value="645.626154291309" />
-      <entry key="H4" value="778.6585116118528" />
-      <entry key="D1" value="915.3377448734886" />
-      <entry key="W1" value="941.5460025003381" />
+      <entry key="MS100" value="6.6590952104623855E-65" />
+      <entry key="MS500" value="1.466850465929508E-13" />
+      <entry key="S2" value="0.0012948385595739878" />
+      <entry key="S5" value="0.2985012016420817" />
+      <entry key="S10" value="2.0654891266724875" />
+      <entry key="S30" value="7.70862396153663" />
+      <entry key="S60" value="10.747001803061298" />
+      <entry key="M2" value="12.694929805740825" />
+      <entry key="M5" value="14.13729559156815" />
+      <entry key="M10" value="17.482986550875953" />
+      <entry key="M15" value="27.013990797512655" />
+      <entry key="M30" value="94.36550880997784" />
+      <entry key="H1" value="273.969166039878" />
+      <entry key="H2" value="515.3619589279813" />
+      <entry key="H4" value="721.8777090825173" />
+      <entry key="D1" value="965.231577794317" />
+      <entry key="W1" value="1015.3701595013995" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -97,33 +102,48 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "feature/write-capability",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Git_Course" />
