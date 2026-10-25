@@ -1,3 +1,5 @@
+print("Welcome to the program!")
+
 try:
     with open('sample.txt') as file:
         content = file.read()
